@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:wght@600&display=swap');
+
+/* família da fonte: 'Bebas Neue', sem serifa; */
+/* font-family: 'Alfa Slab One', cursive; */
+
+
+* {
+    margin:  0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+    display: none;    
+}
+
+body{
+    font-family: var(--font-secundary);
+    font-weight: normal;
+    line-height: 1.7;
+    color: var(--color-text);
+}
+button {
+    color: var(--color-white);
+    font-weight: normal;
+    font-family: var(--font-primary);
+    background: var(--color-btn);
+    padding: 12px 2rem ;
+}
+
+:root {
+
+    --font-primary: 'Alfa Slab One', cursive;
+    --font-secundary: 'Bebas Neue', sem serifa;
+    --font-nav: 'Montserrat', sem serifa;
+
+    --color-text: #3d2514;
+    --color-brd-title: #ffc045;
+    --color-btn: #bf2222;
+    --color-white: #fff;
+
+    --transition: all 400ms ease;
+
+    --container-width-lg: 90%;
+    --container-width-md: 86%;
+    --container-width-sm: 90%;
+}
+img {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+}
+section {
+    margin-top: 8rem;
+}
+
+/*================== GERAL STYLES ====================*/
+
+.container {
+    width: var(--container-width-lg);
+    margin: 0 auto;
+}

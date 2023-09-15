@@ -1,0 +1,67 @@
+.reservation__container {
+    height: 50vw;
+}
+
+.reservation__text {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: normal;
+    margin-top: -9rem;
+}
+
+.reservation__text h4 {
+    letter-spacing: 1pt;
+    font-size: 18pt;
+    font-family: var(--font-secundary);
+    font-weight: normal;
+}
+
+.reservation__text h2 {
+    letter-spacing: 1pt;
+    font-size: 30pt;
+    font-family: var(--font-primary);
+    font-weight: normal;
+}
+
+.reservation__btn {
+    margin-top: 4rem;
+    margin-left: 19rem;
+    width: 90vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.reservation__btn input {
+    color: var(--color-text);
+    font-family: var(--font-secundary);
+    padding: 11px;
+    background: var(--color-white);
+    border: 1pt solid rgba(0, 0, 0, 0.277);
+}
+
+.imgs__reservation {
+    position: absolute;
+    width: 40px;
+    
+}
+
+.imgs__reservation .img img{
+    width: 200px;
+    transform: translate(-45%, -80%);
+    box-shadow: 5px 5px 20px black;
+}
+.imgs__reservation .img2 {
+    width: 60px;
+    transform: translate(280%, -80%);
+}
+.imgs__reservation .img3 {
+    position: relative;
+    width: 300px;
+    transform: rotate(90deg);
+    transform: translate(375%, -45%);
+}

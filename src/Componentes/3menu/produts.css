@@ -1,0 +1,79 @@
+.produts__container {
+    height: 50vw;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.produts__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.produts__title h2{
+    color: var(--color-text);
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: normal;
+    padding: 1px 20px;
+    background: var(--color-brd-title);
+}
+
+.context__title {
+    letter-spacing: 1px;
+    font-weight: normal;
+    color: var(--color-text);
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.context__title p {
+    font-weight: normal;
+    font-size: 11pt;
+    font-family: var(--font-nav);
+}
+
+.context__title h1 {
+    font-weight: normal;
+    font-family: var(--font-primary);
+    font-size: 40pt;
+
+}
+
+.produts__burgers {
+    margin-top: 5rem;
+    column-count: 03;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.produts__burgers p {
+    font-family: var(--font-nav);
+    margin-bottom: 1rem;
+}
+
+.produts__burgers img {
+    margin-bottom: 1rem;
+}
+
+.produts__burgers h3 {
+    letter-spacing: 1pt;
+    font-size: 24pt;
+}
+
+.produts__burger-one {
+    width: 75vh;
+    margin-left: -6rem;
+}
+
+.produts__burger-two{
+    margin-left: 10pt;
+    width: 55.7vh;
+}
+
+.produts__burger-three{
+    margin-left: -3.1rem;
+    width: 75vh;
+}

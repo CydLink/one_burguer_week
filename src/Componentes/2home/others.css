@@ -1,0 +1,22 @@
+.others__container {
+    column-count: 2;
+}
+
+.quadro__img-one{
+    margin-top: 6rem;
+}
+
+.quadro__img__two {
+    margin-bottom: -5rem;
+}
+
+.quadro__img-three {
+    width: 88vh;
+    margin-top: 1.5rem;
+    margin-bottom: 5rem;
+}
+
+.hhh {
+    height: 11.9rem;
+    color: white;
+}
